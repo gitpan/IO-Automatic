@@ -1,0 +1,18 @@
+--- #YAML:1.0
+name: IO-Automatic
+version: 0.01
+license: perl
+distribution_type: module
+requires:
+  IO::File: 0
+  IO::String: 0
+  Module::Build: 0.18
+  Test::More: 0
+recommends: {}
+build_requires: {}
+conflicts: {}
+provides:
+  IO::Automatic:
+    file: lib/IO/Automatic.pm
+    version: 0.01
+generated_by: Module::Build version 0.21
